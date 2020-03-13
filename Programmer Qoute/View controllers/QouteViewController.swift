@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  QouteViewController.swift
 //  Programmer Qoute
 //
 //  Created by Nick Biever on 13/03/2020.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QouteViewController: UIViewController {
 
+    let qouteView = QouteView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view = qouteView
     }
-
-
 }
-
