@@ -14,6 +14,8 @@
 		8E616D2F241B9D4E00E5FA8A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E616D2E241B9D4E00E5FA8A /* Quote.swift */; };
 		8E616D31241B9DF500E5FA8A /* QouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E616D30241B9DF500E5FA8A /* QouteView.swift */; };
 		8E616D33241B9E7A00E5FA8A /* QouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E616D32241B9E7A00E5FA8A /* QouteViewController.swift */; };
+		8E616D3B241BB0D400E5FA8A /* data-latin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E616D39241BB0CD00E5FA8A /* data-latin.ttf */; };
+		8E616D3C241BB0D600E5FA8A /* data-unifon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E616D3A241BB0CD00E5FA8A /* data-unifon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8E616D2E241B9D4E00E5FA8A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		8E616D30241B9DF500E5FA8A /* QouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QouteView.swift; sourceTree = "<group>"; };
 		8E616D32241B9E7A00E5FA8A /* QouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QouteViewController.swift; sourceTree = "<group>"; };
+		8E616D39241BB0CD00E5FA8A /* data-latin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-latin.ttf"; sourceTree = "<group>"; };
+		8E616D3A241BB0CD00E5FA8A /* data-unifon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-unifon.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		8E616D2B241B9D2800E5FA8A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8E616D34241BAFA500E5FA8A /* Fonts */,
 				8E616D21241B9C6400E5FA8A /* LaunchScreen.storyboard */,
 				8E616D1F241B9C6400E5FA8A /* Assets.xcassets */,
 				8E616D30241B9DF500E5FA8A /* QouteView.swift */,
@@ -100,6 +105,15 @@
 				8E616D18241B9C6100E5FA8A /* SceneDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E616D34241BAFA500E5FA8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E616D39241BB0CD00E5FA8A /* data-latin.ttf */,
+				8E616D3A241BB0CD00E5FA8A /* data-unifon.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E616D23241B9C6400E5FA8A /* LaunchScreen.storyboard in Resources */,
+				8E616D3C241BB0D600E5FA8A /* data-unifon.ttf in Resources */,
 				8E616D20241B9C6400E5FA8A /* Assets.xcassets in Resources */,
+				8E616D3B241BB0D400E5FA8A /* data-latin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbiever.Programmer-Qoute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -340,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbiever.Programmer-Qoute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
