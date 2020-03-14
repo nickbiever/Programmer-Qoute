@@ -9,11 +9,11 @@
 import Foundation
 
 class Qoute {
-    var qoute: String
-    var author: String
+    var qoute: String = ""
+    var author: String = ""
     
-    init(qoute: String, author: String) {
-        self.qoute = qoute
-        self.author = author
-    }
+//    init(qoute: String, author: String) {
+//        self.qoute = qoute
+//        self.author = author
+//    }
 }
